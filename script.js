@@ -15,7 +15,6 @@ var singleNumber = function(nums) {
             else {
                 count++
             }
-            
         }
         if(count == nums.length - 1) {
             return nums[x]
